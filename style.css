@@ -45,6 +45,10 @@ a{
     
 }
 
+.header h2 {
+    font-size: 24px;
+}
+
 .dark-text {
     color:#1f2937;
 }
@@ -61,8 +65,24 @@ a{
     color:#e5e7eb;
 }
 
-.quote{
+.quote {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;    
+}
+
+.citation {
+    display: flex;
+    font-weight: bold;
+    justify-content: flex-end;
+    
 }
 
 button, .cta{
@@ -70,8 +90,3 @@ button, .cta{
     border-radius: 12px;
 }
 
-.quote p{
-    font-size: 36px;
-    font-style: italic;
-    font-weight: lighter;
-}
