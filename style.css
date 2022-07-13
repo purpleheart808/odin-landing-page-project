@@ -107,10 +107,28 @@ a{
     
 }
 
+.cta-area{
+
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    padding: 20px;
+    align-items: center;
+
+}
+
 button, .cta{
     background-color: #3bb2f6;
     border-radius: 12px;
-    flex: 0 1 0%;
+   
 }
 
 button {
