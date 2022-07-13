@@ -150,4 +150,28 @@ button {
 
 }
 
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+    padding: 50px;
 
+}
+
+.img-row {
+
+display: flex;
+justify-content: space-around;
+
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.img-holder {
+    display: flex;
+    flex-wrap: wrap;
+ height: auto;
+ width: 100px;
+
+}
