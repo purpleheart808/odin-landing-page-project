@@ -54,7 +54,9 @@ a{
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 10px 250px;
+    align-items: center;
 }
 
 .banner h1 {
@@ -88,6 +90,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding: 100px;
 }
 
 .main-quote {
