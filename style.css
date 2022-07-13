@@ -89,8 +89,9 @@ a{
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     padding: 100px;
+    
 }
 
 .main-quote {
@@ -112,5 +113,17 @@ button, .cta{
     flex: 0 1 0%;
 }
 
+button {
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    flex-direction: column;
+}
 
 
