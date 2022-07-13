@@ -154,7 +154,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: space-around;
+    align-items: center;
     padding: 50px;
 
 }
@@ -164,8 +164,9 @@ button {
 display: flex;
 justify-content: space-around;
 
-gap: 20px;
+
 flex-wrap: wrap;
+padding: 10px 100px;
 }
 
 .img-holder {
@@ -173,5 +174,15 @@ flex-wrap: wrap;
     flex-wrap: wrap;
  height: auto;
  width: 100px;
+ align-items: center;
+ justify-content: center; 
+ margin: 0 100px;
+
+}
+
+.img-holder img {
+
+    height: auto;
+ width: 200px;
 
 }
