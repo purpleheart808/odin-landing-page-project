@@ -12,10 +12,28 @@ body {
     
 }
 
+.banner {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 50px;
+    
+}
 .banner img {
-    flex: auto;
+
     height: auto;
-    width:300;
+    width:300px;
+}
+
+.banner-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    flex:0 1 auto;
+    flex-wrap: wrap;
+    width:600px;
 }
 
 ul {
@@ -36,7 +54,7 @@ a{
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .banner h1 {
@@ -88,5 +106,8 @@ a{
 button, .cta{
     background-color: #3bb2f6;
     border-radius: 12px;
+    flex: 0 1 0%;
 }
+
+
 
